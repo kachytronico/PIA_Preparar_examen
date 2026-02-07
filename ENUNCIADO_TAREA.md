@@ -87,4 +87,23 @@ Elon Musk se ha puesto en contacto con nuestra empresa para crear un sistema exp
 \*   Todos los modelos, usando como criterio un modelo de Regresión Lineal. 0.3 puntos 
 
 
+## Problema 2: Fallos de producto
+Ayuda a una empresa a mejorar su producto prediciendo cuándo fallará. El problema principal es que detectar, notificar y registrar los fallos es un proceso muy costoso, por lo que no se dispone de todas las etiquetas finales que permitirían entrenar perfectamente al modelo.
 
+1. Realiza un AED sobre el conjunto de datos.
+*  Estadísticos iniciales. 0.2 puntos
+*  Distribuciones de las variables numéricas del conjunto de datos. 0.3 puntos
+*  Matriz de correlación. 0.5 puntos
+2. Realiza el preprocesamiento de datos de tu problema.
+*  Reserva un conjunto de datos para validación y otro para testeo. 0.5 puntos
+*  Columnas inútiles, valores sin sentido y atípicos. 1 puntos
+*  Tratamiento de valores nulos. 0.5 puntos
+*  Análisis de variabilidad. 0.5 puntos
+*  Columnas categóricas. 0.5 punto
+*  Reducción de la dimensionalidad. 1 punto
+3. Realiza un etiquetado automático. 1 punto
+4. Entrena y optimiza distintos modelos supervisados.
+*  Modelo 1. 1 punto
+*  Modelo 2. 1 punto
+*  Modelo 3. 1 punto
+5.  Crea un modelo ensemble y explica el criterio que utilizas. 1 punto
